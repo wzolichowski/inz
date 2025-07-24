@@ -2,3 +2,5 @@ backupmain.py
 .dockerignore
 __pychache__/
 *.py[cod]
+.env
+
