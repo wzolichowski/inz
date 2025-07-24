@@ -6,7 +6,7 @@ import os
 
 
 # URL backendu z ustawień środowiskowych lub domyślnie localhost
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://inz-pypv.onrender.com")
 
 
 class BackendMonitor:
