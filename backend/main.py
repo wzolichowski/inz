@@ -10,9 +10,6 @@ import os
 from dotenv import load_dotenv
 
 
-# Wczytanie zmiennych środowiskowych z pliku .env
-load_dotenv()
-
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL")
 if not SQLALCHEMY_DATABASE_URL:
     raise RuntimeError("DATABASE_URL not set in environment or .env file")
