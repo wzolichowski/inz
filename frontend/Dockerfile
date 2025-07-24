@@ -18,5 +18,5 @@ EXPOSE 10000
 
 ENV backend_url=http://localhost:8000
 
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
 
