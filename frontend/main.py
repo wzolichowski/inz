@@ -465,10 +465,10 @@ def main(page: ft.Page):
     page.scroll = ft.ScrollMode.ADAPTIVE
     page.theme_mode = ft.ThemeMode.DARK
     page.add(TodoApp(page))
-    page.web_app_manifest = "assets/manifest.json"
+    page.web_app_manifest = "manifest.json"
     
 
 
 if __name__ == "__main__":
     # uruchamianie aplikacji w trybie webowym na porcie 10000 na desktop usuwamy do main
-    ft.app(target=main, view=ft.WEB_BROWSER, port=10000, assets_dir="assets/icons")
+    ft.app(target=main, view=ft.WEB_BROWSER, port=10000, assets_dir="assets")
