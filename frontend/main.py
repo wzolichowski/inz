@@ -465,7 +465,6 @@ def main(page: ft.Page):
     page.scroll = ft.ScrollMode.ADAPTIVE
     page.theme_mode = ft.ThemeMode.DARK
     page.add(TodoApp(page))
-    page.web_app_manifest = "manifest.json"
     
 
 
