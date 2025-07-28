@@ -1,11 +1,11 @@
 {
-  "name": "ToDo!",
-  "short_name": "ToDo",
+  "name": "test",
+  "short_name": "test",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#202020",
   "theme_color": "#0078D7",
-  "description": "To Do App!",
+  "description": "test!",
   "icons": [
     {
       "src": "assets/icons/192-todo.png",
