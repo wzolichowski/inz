@@ -464,9 +464,9 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.scroll = ft.ScrollMode.ADAPTIVE
     page.theme_mode = ft.ThemeMode.DARK
-
-    # dodajemy naszą aplikację TodoApp na stronę/okno
     page.add(TodoApp(page))
+    page.web_app_manifest = "manifest.json"
+    
 
 
 if __name__ == "__main__":
