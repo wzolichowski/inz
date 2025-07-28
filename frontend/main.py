@@ -470,6 +470,5 @@ def main(page: ft.Page):
 
 
 if __name__ == "__main__":
-    # uruchamianie aplikacji w trybie webowym na porcie 10000
-    # jeśli chcesz desktop, wywołaj ft.app(target=main) bez argumentów
-    ft.app(target=main, view=ft.WEB_BROWSER, port=10000, assets_dir="assets")
+    # uruchamianie aplikacji w trybie webowym na porcie 10000 na desktop usuwamy do main
+    ft.app(target=main, view=ft.WEB_BROWSER, port=10000, assets_dir="assets/icons")
